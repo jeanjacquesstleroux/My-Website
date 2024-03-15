@@ -1221,4 +1221,35 @@ footer a{
             margin-bottom: 80px;
         }
     }
+    
+    /* Mobile View */
+    @media screen and (max-width: 320px) {
+       
+        .home .home-container{
+            display: grid;
+        }
+
+        .home .home-container h3{
+            line-height: 1.5rem;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .home-container .home-img{
+            position: absolute;
+        }
+
+        .home-container .home-img img{
+            width: 80%;
+            transform: translate(25px, -230px);
+        }
+
+        .about .container .about-img{
+            transform: scaleY(.6);
+        }
+
+        .skills-info .experience-card h4{
+            line-height: 40px;
+        }
+    }
 }
