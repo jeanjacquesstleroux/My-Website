@@ -1178,6 +1178,8 @@ footer a{
         margin: 10px 0 22px;
     }
 
+}
+
     /*===== Media query 730====*/
     @media screen and (max-width: 730px) {
         body{
@@ -1252,4 +1254,3 @@ footer a{
             line-height: 40px;
         }
     }
-}
